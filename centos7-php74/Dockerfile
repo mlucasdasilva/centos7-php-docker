@@ -35,6 +35,9 @@ RUN yum --enablerepo=remi-php${PHP_V} -y install \
 RUN yum --enablerepo=remi-php${PHP_V} -y install \
                    php-pear php-mysql php-mssql php-pgsql php7-pdo
 
+RUN yum --enablerepo=remi-php${PHP_V} -y install \
+                   php-zip
+
 # You can run the following command to search other available PHP modules under configured yum repositories. Below example command search for all modules for PHP 7.4.
 # yum --enablerepo=remi-php74 search php | grep php74
 

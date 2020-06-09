@@ -11,8 +11,3 @@ services:
 #  image: centos7-php74
   image: mlucasdasilva/centos7-php74
   build: ./centos7-php74
-
- moodle:
-  image: mlucasdasilva/moodle
-  build: ./moodle
-
